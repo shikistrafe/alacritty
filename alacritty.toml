@@ -1,0 +1,67 @@
+[colors.bright]
+black = "0x444b6a"
+blue = "0x7da6ff"
+cyan = "0x0db9d7"
+green = "0xb9f27c"
+magenta = "0xbb9af7"
+red = "0xff7a93"
+white = "0xacb0d0"
+yellow = "0xff9e64"
+
+[colors.normal]
+black = "0x32344a"
+blue = "0x7aa2f7"
+cyan = "0x449dab"
+green = "0x9ece6a"
+magenta = "0xad8ee6"
+red = "0xf7768e"
+white = "0x787c99"
+yellow = "0xe0af68"
+
+[font]
+size = 12
+
+[font.bold]
+family = "Cascadia Code NF"
+style = "Bold"
+
+[font.bold_italic]
+family = "Cascadia Code"
+style = "Bold Italic"
+
+[font.italic]
+family = "Cascadia Code"
+style = "Italic"
+
+[font.normal]
+family = "Cascadia Code"
+style = "Regular"
+
+[[keyboard.bindings]]
+action = "Paste"
+key = "V"
+mods = "Control"
+
+[[keyboard.bindings]]
+action = "Copy"
+key = "C"
+mods = "Control"
+
+[scrolling]
+history = 10000
+
+[window]
+opacity = 0.9
+title = "Alacritty"
+
+[window.class]
+general = "Alacritty"
+instance = "Alacritty"
+
+[window.dimensions]
+columns = 120
+lines = 28
+
+[window.padding]
+x = 2
+y = 2
